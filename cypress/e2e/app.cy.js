@@ -336,7 +336,7 @@ describe("New user registration", () => {
   });
 
   6;
-  describe("Date Not Filled In", () => {
+  describe("Company Not Selected", () => {
     it("Given the administrator is on the main page of the Contato Seguro system", () => {
       cy.visit("/");
     });
@@ -361,9 +361,9 @@ describe("New user registration", () => {
       addNewUserForm.typeCellphone("51985696919");
     });
 
-    it("And they leave the Data field empty", () => {
+    it("They fill in the Data field with a valid date", () => {
       const addNewUserForm = new AddNewUserForm();
-      addNewUserForm.typeDate("2000-01-02");
+      addNewUserForm.typeDate("2000-01-01");
     });
 
     it("And they leave the Empresas field empty", () => {
