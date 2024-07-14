@@ -1460,8 +1460,6 @@ In this section, the bugs found in the application are listed, along with some e
 
 - Bug NCTC0014 - The "Editar Usuário" button does not perform any action after interacting with it.
 
-- Bug NCTC0029: When attempting to update a user's information, a 500 error is returned as show in ![evidency_tc0029](images/tc0029.png)
-
 - Bug NCTC0023 - It was not possible to automate the scenario due to defect NCCT0023. When the trash can button is clicked to delete the user, it displays a success pop-up message but still keeps the user in the list of existing users.
 
 - Bug NCTC0029: When attempting to update a user's information, a 500 error is returned as show in ![evidency_tc0029](images/tc0029.png)
